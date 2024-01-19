@@ -1,0 +1,75 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    background-color: #DCF2F1;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+p {
+    font-size: x-large;
+}
+
+.ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.custom-hr {
+    border: 0;
+    height: 2px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.card {
+    border-radius: 20px;
+}
+.fade-in {
+    opacity: 0;
+    animation: fadeIn ease-in-out 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
